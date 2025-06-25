@@ -1,0 +1,64 @@
+[0.110s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[1.583s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[1.812s] [ 33%] Built target noisy_controller
+[1.812s] [ 66%] Built target simple_controller
+[2.707s] [100%] Built target twist_relay
+[3.496s] running egg_info
+[3.515s] writing bumperbot_controller.egg-info/PKG-INFO
+[3.515s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[3.516s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[3.637s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[3.800s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[3.821s] [100%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[4.194s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[4.250s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_controller
+[4.360s] -- Install configuration: ""
+[4.360s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[4.360s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[4.360s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info
+[4.360s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[4.360s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[4.361s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[4.361s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[4.361s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller
+[4.361s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+[4.361s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/noisy_controller.py
+[4.361s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py
+[4.361s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/twist_relay.py
+[4.361s] Listing '/home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+[4.361s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/include/include
+[4.361s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[4.361s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[4.361s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[4.462s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[4.494s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[4.508s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay
+[4.508s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[4.508s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[4.508s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[4.508s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[4.508s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[4.509s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[4.509s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[4.509s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[4.509s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[4.509s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[4.509s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[4.509s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[4.509s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+[4.509s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[4.544s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[4.544s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[4.545s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[4.545s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[4.545s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[4.545s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[4.545s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[4.545s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[4.545s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[4.545s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[4.560s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[4.561s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[4.561s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[4.561s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[4.593s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_controller

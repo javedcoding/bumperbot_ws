@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1a47438f7c97b58a171e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bumperbot_planning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "a_star_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a_star_planner-ada846904ae4fb83afad.json",
+					"name" : "a_star_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_bumperbot_planning_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_bumperbot_planning_egg-cd7ccb13b2d5ee98a54d.json",
+					"name" : "ament_cmake_python_build_bumperbot_planning_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_bumperbot_planning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_bumperbot_planning-0df366bd196867e87a12.json",
+					"name" : "ament_cmake_python_copy_bumperbot_planning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bumperbot_planning_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bumperbot_planning_uninstall-5deae9c6921682afd9c7.json",
+					"name" : "bumperbot_planning_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dijkstra_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dijkstra_planner-9f3c3426aa257e7e3a51.json",
+					"name" : "dijkstra_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4978e8c73003e40ba3bc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning",
+		"source" : "/home/javed/ros_projects/bumperbot_ws/src/bumperbot_planning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

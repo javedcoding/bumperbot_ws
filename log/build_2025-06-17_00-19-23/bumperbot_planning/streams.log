@@ -1,0 +1,42 @@
+[0.022s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning -- -j16 -l16
+[0.047s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.285s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.285s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.309s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.316s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.389s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.390s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.464s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.515s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.564s] -- Found tf2_ros: 0.36.11 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.749s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.825s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.825s] -- Configured cppcheck include dirs: /home/javed/ros_projects/bumperbot_ws/src/bumperbot_planning/include
+[0.825s] -- Configured cppcheck exclude dirs and/or files: 
+[0.826s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.826s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.827s] -- Added test 'lint_cmake' to check CMake code style
+[0.827s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.827s] -- Added test 'uncrustify' to check C / C++ code style
+[0.827s] -- Configured uncrustify additional arguments: 
+[0.828s] -- Added test 'xmllint' to check XML markup files
+[0.832s] -- Configuring done (0.8s)
+[0.834s] [31mCMake Error at CMakeLists.txt:24 (add_executable):
+[0.834s]   Cannot find source file:
+[0.834s] 
+[0.834s]     src/a_star_planner.cpp
+[0.834s] 
+[0.834s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.834s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.834s]   .f95 .f03 .hip .ispc
+[0.834s] 
+[0.834s] [0m
+[0.835s] [31mCMake Error at CMakeLists.txt:24 (add_executable):
+[0.835s]   No SOURCES given to target: a_star_planner
+[0.835s] 
+[0.835s] [0m
+[0.835s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.843s] gmake: *** [Makefile:295: cmake_check_build_system] Error 1
+[0.855s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning -- -j16 -l16

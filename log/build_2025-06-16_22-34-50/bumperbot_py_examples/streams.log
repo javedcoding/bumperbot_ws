@@ -1,0 +1,32 @@
+[7.127s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/src/bumperbot_py_examples': AMENT_PREFIX_PATH=/home/javed/ros_projects/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/javed/ros_projects/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/javed/ros_projects/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/javed/ros_projects/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/javed/ros_projects/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/javed/ros_projects/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[7.346s] running egg_info
+[7.362s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[7.400s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[7.423s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[7.423s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[7.423s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[7.457s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[7.477s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[7.477s] running build
+[7.477s] running build_py
+[7.478s] running install
+[7.483s] running install_lib
+[7.501s] running install_data
+[7.501s] running install_egg_info
+[7.519s] removing '/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[7.519s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info
+[7.540s] running install_scripts
+[7.659s] Installing simple_action_client script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.679s] Installing simple_action_server script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.679s] Installing simple_lifecycle_node script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.679s] Installing simple_parameter script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.680s] Installing simple_publisher script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.680s] Installing simple_qos_publisher script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.680s] Installing simple_qos_subscriber script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.680s] Installing simple_service_client script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.680s] Installing simple_service_server script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.680s] Installing simple_subscriber script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.680s] Installing simple_tf_kinematics script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.680s] Installing simple_turtlesim_kinematics script to /home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[7.681s] writing list of installed files to '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[7.700s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/src/bumperbot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/javed/ros_projects/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/javed/ros_projects/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/javed/ros_projects/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/javed/ros_projects/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/javed/ros_projects/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/javed/ros_projects/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

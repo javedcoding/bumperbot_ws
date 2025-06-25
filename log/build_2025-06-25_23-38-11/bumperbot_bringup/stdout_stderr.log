@@ -1,0 +1,25 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/javed/ros_projects/bumperbot_ws/build/bumperbot_bringup
+-- Install configuration: ""
+-- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/config
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/config/rplidar_a1.yaml
+-- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/launch
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/launch/real_robot.launch.py
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/launch/simulated_robot.launch.py
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/ament_index/resource_index/package_run_dependencies/bumperbot_bringup
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/ament_index/resource_index/parent_prefix_path/bumperbot_bringup
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.sh
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/environment/path.dsv
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.bash
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.sh
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.zsh
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/local_setup.dsv
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.dsv
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/ament_index/resource_index/packages/bumperbot_bringup
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig.cmake
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/cmake/bumperbot_bringupConfig-version.cmake
+-- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.xml

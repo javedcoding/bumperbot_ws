@@ -1,0 +1,42 @@
+[0.262s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_utils -- -j16 -l16
+[1.254s] [  0%] Built target ament_cmake_python_copy_bumperbot_utils
+[1.281s] [100%] Built target safety_stop
+[1.773s] running egg_info
+[1.790s] writing bumperbot_utils.egg-info/PKG-INFO
+[1.790s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[1.791s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[2.147s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[2.187s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[2.215s] [100%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[2.383s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_utils -- -j16 -l16
+[2.604s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_utils
+[2.622s] -- Install configuration: ""
+[2.643s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[2.643s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[2.643s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info
+[2.644s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.644s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.644s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/PKG-INFO
+[2.644s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/top_level.txt
+[2.644s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils
+[2.645s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/__init__.py
+[2.645s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/safety_stop.py
+[2.824s] Listing '/home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils'...
+[2.977s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[2.977s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[2.978s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[2.978s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[2.978s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[2.979s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[2.979s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[2.979s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[2.979s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[2.979s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[2.979s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[2.979s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[2.979s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[3.330s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[3.330s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[3.330s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[3.331s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[3.753s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_utils
