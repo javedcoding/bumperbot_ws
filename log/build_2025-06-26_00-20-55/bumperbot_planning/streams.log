@@ -1,0 +1,52 @@
+[0.026s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning -- -j16 -l16
+[0.186s] [  0%] Built target ament_cmake_python_copy_bumperbot_planning
+[0.225s] [ 50%] Built target dijkstra_planner
+[0.239s] [100%] Built target a_star_planner
+[0.395s] running egg_info
+[0.415s] writing bumperbot_planning.egg-info/PKG-INFO
+[0.415s] writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+[0.416s] writing top-level names to bumperbot_planning.egg-info/top_level.txt
+[0.479s] reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.479s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[0.514s] [100%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[0.538s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning -- -j16 -l16
+[0.539s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning
+[0.546s] -- Install configuration: ""
+[0.547s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh
+[0.547s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv
+[0.547s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info
+[0.547s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.547s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.547s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/PKG-INFO
+[0.548s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/top_level.txt
+[0.548s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning
+[0.548s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/a_star_planner.py
+[0.548s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/__init__.py
+[0.548s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/dijkstra_planner.py
+[0.584s] Listing '/home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning'...
+[0.590s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py
+[0.590s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner.py
+[0.590s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/include/include
+[0.590s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning
+[0.590s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp
+[0.590s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/a_star_planner.hpp
+[0.590s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner
+[0.590s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner
+[0.590s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[0.590s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[0.591s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[0.591s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[0.591s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[0.591s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[0.591s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[0.591s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[0.591s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[0.591s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[0.591s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[0.591s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[0.592s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.592s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.592s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[0.592s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[0.592s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[0.633s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_planning
