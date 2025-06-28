@@ -94,7 +94,7 @@ class DijkstraPlanner(Node):
             self.get_logger().warn("No path found to the goal")
 
     
-    def plan(self, start, goal):
+    def plan(self, start:Pose, goal:Pose):
         explore_direction = [(-1, 0), (1, 0), (0, 1), (0, -1)] #left, right, top, bottom 1 positions
         pending_nodes = PriorityQueue()
         visited_nodes = set()
@@ -121,13 +121,13 @@ class DijkstraPlanner(Node):
 
         path = Path()
         path.header.frame_id = self.map_.header.frame_id
-        while active_node and active_node.prev and rclpy.ok():
-            last_pose: Pose = self.grif_to_world(active_node)
+        while active_node and active_node.prev_node and rclpy.ok():
+            last_pose: Pose = self.grid_to_world(active_node)
             last_pose_stamped = PoseStamped()
             last_pose_stamped.header.frame_id = self.map_.header.frame_id
             last_pose_stamped.pose = last_pose
             path.poses.append(last_pose_stamped)
-            active_node = active_node.prev
+            active_node = active_node.prev_node
 
         path.poses.reverse()
         return path
