@@ -85,7 +85,7 @@ class DijkstraPlanner(Node):
         map_to_base_pose.position.y = map_to_base_tf.transform.translation.y
         map_to_base_pose.orientation = map_to_base_tf.transform.rotation
 
-        path = self.plan(map_to_base_pose, pose.pose) #calling the Dijkstra path planning using intial position and destination position
+        path = self.plan(map_to_base_pose, pose.pose) #calling the AStar path planning using intial position and destination position
 
         if path.poses:
             self.get_logger().info("Shortest path found")
@@ -116,7 +116,7 @@ class DijkstraPlanner(Node):
                     pending_nodes.put(new_node)
                     visited_nodes.add(new_node)
 
-            self.visited_map_data[self.pose_to_cell(active_node)] = 10 #this makes the visited path value on map as green
+            self.visited_map_.data[self.pose_to_cell(active_node)] = 10 #this makes the visited path value on map as green
             self.map_pub.publish(self.visited_map_)
 
         path = Path()
