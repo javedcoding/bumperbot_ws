@@ -128,7 +128,7 @@ void PDMotionPlanner::pathCallback(const nav_msgs::msg::Path::SharedPtr path)
 
 geometry_msgs::msg::PoseStamped PDMotionPlanner::getNextPose(const geometry_msgs::msg::PoseStamped & robot_pose)
 {
-    auto next_pose = global_plan_.poses.back();
+    geometry_msgs::msg::PoseStamped next_pose = global_plan_.poses.back();
     for(auto post_it = global_plan_.poses.rbegin(); post_it != global_plan_.poses.rend(); ++post_it) {
         double dx = post_it->pose.position.x - robot_pose.pose.position.x;
         double dy = post_it->pose.position.y - robot_pose.pose.position.y;

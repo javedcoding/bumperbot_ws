@@ -1,0 +1,58 @@
+[0.237s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_mapping -- -j16 -l16
+[1.193s] [  0%] Built target ament_cmake_python_copy_bumperbot_mapping
+[1.369s] [100%] Built target mapping_with_known_poses
+[1.722s] running egg_info
+[1.742s] writing bumperbot_mapping.egg-info/PKG-INFO
+[1.742s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[1.742s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[1.898s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[1.898s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[1.949s] [100%] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[2.051s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_mapping -- -j16 -l16
+[2.122s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_mapping
+[2.238s] -- Install configuration: ""
+[2.238s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+[2.238s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+[2.238s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info
+[2.238s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.238s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.238s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/PKG-INFO
+[2.238s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/top_level.txt
+[2.238s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping
+[2.238s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py
+[2.238s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/__init__.py
+[2.274s] Listing '/home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping'...
+[2.282s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/include/include
+[2.282s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping
+[2.282s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+[2.282s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses
+[2.282s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config
+[2.282s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+[2.283s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch
+[2.283s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+[2.283s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[2.283s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[2.283s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[2.283s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[2.283s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse
+[2.283s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.yaml
+[2.283s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.pgm
+[2.283s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz
+[2.284s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz
+[2.284s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+[2.284s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[2.284s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[2.284s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[2.284s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[2.284s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[2.285s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[2.285s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[2.285s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[2.285s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[2.285s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[2.286s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[2.286s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[2.286s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[2.287s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[2.287s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[2.317s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_mapping

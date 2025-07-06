@@ -1,4 +1,4 @@
-#!/usr/bin/env python3\
+#!/usr/bin/env python3
 import math
 import rclpy
 from rclpy.node import Node
@@ -22,9 +22,9 @@ class PDMotionPlanner(Node):
         self.max_linear_velocity = self.get_parameter("max_linear_velocity").value #class variable max_linear_velocity
         self.max_angular_velocity = self.get_parameter("max_angular_velocity").value #class variable max_angular_velocity
 
-        self.path_sub = self.create_subscription(Path, "/a_star/path", self.path_callback, 10)
-        self.cmd_pub = self.create_publisher(Twist, "/cmd_vel", 10)
-        self.next_pose_pub = self.create_publisher(PoseStamped, "/pd/next_pose", 10)
+        self.path_sub = self.create_subscription(Path, "/a_star/path", self.path_callback, 10) #subscribe to the path topic of the a_star path planner
+        self.cmd_pub = self.create_publisher(Twist, "/cmd_vel", 10) #publishes messages to the cmd_vel topic to control the robot's velocity
+        self.next_pose_pub = self.create_publisher(PoseStamped, "/pd/next_pose", 10) #publishes the next pose to the pd/next_pose topic for visualization
 
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)

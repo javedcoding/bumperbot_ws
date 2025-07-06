@@ -923,6 +923,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/bumperbot_motion_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/pd_motion_planner.dir/DependInfo.cmake"
+  "CMakeFiles/pure_pursuit.dir/DependInfo.cmake"
   "CMakeFiles/ament_cmake_python_copy_bumperbot_motion.dir/DependInfo.cmake"
   "CMakeFiles/ament_cmake_python_build_bumperbot_motion_egg.dir/DependInfo.cmake"
   )
