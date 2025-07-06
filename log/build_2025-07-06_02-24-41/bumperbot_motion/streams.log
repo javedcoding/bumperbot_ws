@@ -1,0 +1,62 @@
+[0.027s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_motion -- -j16 -l16
+[0.212s] [  0%] Built target ament_cmake_python_copy_bumperbot_motion
+[0.225s] [ 50%] [32mBuilding CXX object CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o[0m
+[0.442s] running egg_info
+[0.464s] writing bumperbot_motion.egg-info/PKG-INFO
+[0.465s] writing dependency_links to bumperbot_motion.egg-info/dependency_links.txt
+[0.465s] writing top-level names to bumperbot_motion.egg-info/top_level.txt
+[0.550s] reading manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[0.550s] writing manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[0.608s] [ 50%] Built target ament_cmake_python_build_bumperbot_motion_egg
+[2.622s] In file included from [01m[K/home/javed/ros_projects/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:1[m[K:
+[2.623s] [01m[K/home/javed/ros_projects/bumperbot_ws/src/bumperbot_motion/include/bumperbot_motion/pd_motion_planner.hpp:[m[K In constructor ‘[01m[Kbumperbot_motion::PDMotionPlanner::[01;32m[KPDMotionPlanner[m[K()[m[K’:
+[2.623s] [01m[K/home/javed/ros_projects/bumperbot_ws/src/bumperbot_motion/include/bumperbot_motion/pd_motion_planner.hpp:29:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbumperbot_motion::PDMotionPlanner::prev_linear_error_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.623s]    29 |         double [01;35m[Kprev_linear_error_[m[K;
+[2.623s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.623s] [01m[K/home/javed/ros_projects/bumperbot_ws/src/bumperbot_motion/include/bumperbot_motion/pd_motion_planner.hpp:28:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble bumperbot_motion::PDMotionPlanner::prev_angular_error_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.623s]    28 |         double [01;35m[Kprev_angular_error_[m[K;
+[2.623s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.623s] [01m[K/home/javed/ros_projects/bumperbot_ws/src/bumperbot_motion/src/pd_motion_planner.cpp:8:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.623s]     8 | [01;35m[KPDMotionPlanner[m[K::PDMotionPlanner() : Node("pd_motion_planner_node"),
+[2.623s]       | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[8.477s] [100%] [32m[1mLinking CXX executable pd_motion_planner[0m
+[8.792s] [100%] Built target pd_motion_planner
+[8.803s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_motion -- -j16 -l16
+[8.805s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_motion
+[8.813s] -- Install configuration: ""
+[8.813s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.sh
+[8.813s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.dsv
+[8.813s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info
+[8.813s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/SOURCES.txt
+[8.814s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/dependency_links.txt
+[8.814s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/PKG-INFO
+[8.814s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/top_level.txt
+[8.814s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion
+[8.814s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/__init__.py
+[8.814s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pd_motion_planner.py
+[8.849s] Listing '/home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion'...
+[8.849s] Compiling '/home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pd_motion_planner.py'...
+[8.856s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pd_motion_planner.py
+[8.856s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/include/include
+[8.856s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion
+[8.856s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion/pd_motion_planner.hpp
+[8.856s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pd_motion_planner
+[8.864s] -- Set non-toolchain portion of runtime path of "/home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pd_motion_planner" to ""
+[8.864s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/package_run_dependencies/bumperbot_motion
+[8.864s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/parent_prefix_path/bumperbot_motion
+[8.864s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.sh
+[8.865s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.dsv
+[8.865s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.sh
+[8.865s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.dsv
+[8.865s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.bash
+[8.865s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.sh
+[8.865s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.zsh
+[8.865s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.dsv
+[8.865s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.dsv
+[8.865s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/packages/bumperbot_motion
+[8.865s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.865s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.865s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig.cmake
+[8.866s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig-version.cmake
+[8.866s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.xml
+[8.867s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_motion

@@ -25,8 +25,13 @@ namespace bumperbot_motion{
         double max_linear_velocity_;
         double max_angular_velocity_;
         nav_msgs::msg::Path global_plan_;
+        double prev_angular_error_;
+        double prev_linear_error_;
+        rclcpp::Time last_cycle_time_;
 
         void controlLoop();
         void pathCallback(const nav_msgs::msg::Path::SharedPtr path);
+        bool transformPlan(const std::string & frame);
+        geometry_msgs::msg::PoseStamped getNextPose(const geometry_msgs::msg::PoseStamped & robot_pose);
     };    
 }
