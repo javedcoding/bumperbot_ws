@@ -1,0 +1,64 @@
+[0.362s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_localization -- -j16 -l16
+[1.706s] [  0%] Built target ament_cmake_python_copy_bumperbot_localization
+[2.583s] [ 33%] Built target imu_republisher
+[2.583s] [ 66%] Built target odometry_motion_model
+[2.809s] [100%] Built target kalman_filter
+[4.427s] running egg_info
+[4.446s] writing bumperbot_localization.egg-info/PKG-INFO
+[4.446s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[4.447s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[4.778s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[4.779s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[4.832s] [100%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[5.597s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/javed/ros_projects/bumperbot_ws/build/bumperbot_localization -- -j16 -l16
+[5.711s] Invoking command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_localization
+[5.732s] -- Install configuration: ""
+[5.732s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[5.732s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[5.732s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info
+[5.732s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.732s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.733s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/PKG-INFO
+[5.733s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/top_level.txt
+[5.733s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization
+[5.733s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py
+[5.733s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py
+[5.733s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py
+[5.733s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/odometry_motion_model.py
+[6.367s] Listing '/home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization'...
+[6.372s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/include/include
+[6.372s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[6.372s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[6.373s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/odometry_motion_model.hpp
+[6.373s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/bin/odometry_motion_model
+[6.373s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[6.373s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[6.373s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model
+[6.373s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+[6.374s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
+[6.374s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[6.374s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config
+[6.374s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/amcl.yaml
+[6.374s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[6.374s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/odometry_motion_model.rviz
+[6.374s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz
+[6.374s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz/global_localization.rviz
+[6.374s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[6.374s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[6.374s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[6.375s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[6.375s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[6.375s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[6.375s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[6.375s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[6.375s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[6.375s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[6.375s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[6.375s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[6.375s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[6.375s] -- Installing: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[6.393s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[6.394s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[6.394s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[6.394s] -- Up-to-date: /home/javed/ros_projects/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[6.422s] Invoked command in '/home/javed/ros_projects/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javed/ros_projects/bumperbot_ws/install/bumperbot_py_examples:/home/javed/ros_practice/install/bumperbot_python_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/javed/ros_projects/bumperbot_ws/build/bumperbot_localization

@@ -13,7 +13,7 @@ DijkstraPlanner:: DijkstraPlanner() : Node("dijkstra_node")
     rclcpp::QoS map_qos(10);
     map_qos.durability(RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL);
     map_sub_ = create_subscription<nav_msgs::msg::OccupancyGrid>(
-        "/map", map_qos, std::bind(&DijkstraPlanner::mapCallback, this, std::placeholders::_1));
+        "/costmap", map_qos, std::bind(&DijkstraPlanner::mapCallback, this, std::placeholders::_1)); // In Humble, it will be "/costmap/costmap"
 
     pose_sub_ = create_subscription<geometry_msgs::msg::PoseStamped>(
         "/goal_pose", 10, std::bind(&DijkstraPlanner::goalCallback, this, std::placeholders::_1));
@@ -85,8 +85,8 @@ nav_msgs::msg::Path DijkstraPlanner::plan(const geometry_msgs::msg::Pose & start
         for (const auto & dir:explore_directions){ //selecting each 4 neighboring directions
             GraphNode new_node = active_node + dir; //operator+ or the sum operator is going to add the exploredirection to current graphnode making it a new node
             if(std::find(visited_nodes.begin(), visited_nodes.end(), new_node) == visited_nodes.end() && 
-                poseOnMap(new_node) && map_->data.at(poseToCell(new_node)) == 0){ //checking from start to end of visited_nodes if the current neighbour is visited
-                    new_node.cost = active_node.cost + 1; //add the cost
+                poseOnMap(new_node) && map_->data.at(poseToCell(new_node)) < 99 && map_->data.at(poseToCell(new_node)) >=0){ //checking from start to end of visited_nodes if the current neighbour is visited
+                    new_node.cost = active_node.cost + 1 + map_->data.at(poseToCell(new_node)); //add the cost and the costmap values
                     new_node.prev = std::make_shared<GraphNode>(active_node); //put the active node to previously selected node
                     pending_nodes.push(new_node); 
                     visited_nodes.push_back(new_node); //put the active node to previously visited node

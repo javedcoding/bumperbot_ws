@@ -41,7 +41,7 @@ class DijkstraPlanner(Node):
         #below part is going to receive occupancy grid from the nav message and quality of service is required durability of transient local
         map_qos = QoSProfile(depth=10)
         map_qos.durability = DurabilityPolicy.TRANSIENT_LOCAL
-        self.map_sub = self.create_subscription(OccupancyGrid, "/map", self.map_callback, map_qos)
+        self.map_sub = self.create_subscription(OccupancyGrid, "/costmap", self.map_callback, map_qos) #in humble it will be costmap/costmap
 
         #below part is going to receive destination position from geometry messages
         self.pose_sub = self.create_subscription(PoseStamped, "/goal_pose", self.goal_callback, 10)
@@ -110,8 +110,8 @@ class DijkstraPlanner(Node):
             for dir_x, dir_y in explore_direction:
                 new_node: GraphNode = active_node + (dir_x, dir_y)
 
-                if new_node not in visited_nodes and self.pose_on_map(new_node) and self.map_.data[self.pose_to_cell(new_node) == 0]:
-                    new_node.cost = active_node.cost + 1 #as the edge nodes are given 1 as costs it is currently in breath first search
+                if new_node not in visited_nodes and self.pose_on_map(new_node) and 0 <= self.map_.data[self.pose_to_cell(new_node)] < 99: #checks if the new node is not visited, is on the map and is not an obstacle
+                    new_node.cost = active_node.cost + 1 + self.map_.data[self.pose_to_cell(new_node)] #as the edge nodes are given 1 as costs it is currently in breath first search with nav2 costmap values added to it
                     new_node.prev_node = active_node
                     pending_nodes.put(new_node)
                     visited_nodes.add(new_node)
